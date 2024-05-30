@@ -1,0 +1,44 @@
+body {
+    font-family: 'lato', sans-serif;
+    background: linear-gradient(rgb(141, 133, 188), rgb(23, 160, 215));
+    
+}
+.h1{
+   color: black;   
+}
+.container {
+    background-color: transparent;
+    border-radius: 15px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     
+}
+table {
+    width: 80%;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 20px 0;
+   
+}
+table, td, th {
+    border: 1px solid black;
+}
+  
+th {
+    height: auto;
+    background-color: rgb(242, 244, 240);
+    padding: 10px;
+}
+td {
+    text-align: left;
+    padding: 15px;
+}
+tr:nth-child(even) { 
+    background-color: #d6dcd8; 
+}
+tr {
+    background-color: aliceblue;
+} 
